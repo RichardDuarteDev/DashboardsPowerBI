@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style-dash.css"></link>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="./js/script.js"></script>
+  
+  <title>Projetos em Power BI</title>
+</head>
+<header>
+   
+  <a href="https://richardduartedev.github.io/Profile/" target="_self"><img src="./img/RD LOGO - Copia.png" alt="Logo" class="logo"> </a>
+  
+  <button id="openBtn" onclick="openSidebar()">Projetos</button>
+</header>
+<div class="title-txt">
+    <h1>Projetos em Power BI</h1>
+</div>
+
+<body>
+
+
+
+
+  <div class="container" id="item1">
+    <iframe title="Relatório de faturamento - Dash" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiODQ1NmQyZGEtMmQ0ZS00YTgwLWI5YmUtNjkzNDkxMjlhMTAzIiwidCI6IjlmMDQ2NTQ3LTE3NDQtNDUwZi04YmJlLWIzMzczYmIxYTg1OCJ9" frameborder="0" allowFullScreen="true"></iframe>
+    <p class="p-txt">
+      <a class="txt-dash"><b>Dashboard de Fatura mento</b></a><br>
+      Neste painel utilizamos os. <b> KPIS:</b><br>
+            <b>Faturamento Total:</b> Analise faturamento global.<br>
+            <b>Produto Mais Vendido:</b>Identifique o produto líder em vendas.<br>
+            <b>Soma de Faturamento por Mês: </b> Analise variações mensais.<br>
+            <b>Soma de Faturamento por Marca:</b>Analise qual marca teve o produto mais vendido.<br>
+            
+            <a class="obs"> Observação: Os dados apresentados são fictícios e foram criados exclusivamente para o desenvolvimento do projeto.</a>
+          
+          </p>    
+  
+  </div>
+
+
+<div class="container" id="item2">
+  <iframe title="DASH PRODUÇÃO" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNjRlYjFhNjgtOTM0Zi00NzYyLWI5MmQtY2E4OGY4YTk1Y2FmIiwidCI6IjlmMDQ2NTQ3LTE3NDQtNDUwZi04YmJlLWIzMzczYmIxYTg1OCJ9" frameborder="0" allowFullScreen="true"></iframe>
+  <p class="p-txt">
+    <a class="txt-dash"><b>Dashboard de Produção</b></a><br>
+    Neste painel utilizamos os. <b> KPIS:</b><br>
+          <b>Total Produzido:</b> Analise o montante total de receitas geradas por instituições financeiras.<br>
+          <b>Total Rejeitado:</b> Analise os gastos totais relacionados a despesas.<br>
+          <b>Horas Produtivas:</b> Avalie o valor total de impostos pagos pelas instituições financeira.<br>
+          <b>Horas Paradas:</b> Analise a soma total de lucro, seguimentado por banco<br>
+          
+          <a class="obs"> Observação: Os dados apresentados são fictícios e foram criados exclusivamente para o desenvolvimento do projeto.</a>
+        
+        </p>    
+
+</div>
+<div class="container" id="item3">
+  <iframe title="DASH - Financeiro 2.0" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNmE5NGM0NzQtNjNkYi00OTIzLWE4Y2YtYTI3ZmI0YzZjMTVmIiwidCI6IjlmMDQ2NTQ3LTE3NDQtNDUwZi04YmJlLWIzMzczYmIxYTg1OCJ9" frameborder="0" allowFullScreen="true"></iframe>
+  <p class="p-txt">
+    <a class="txt-dash"><b>Dashboard de Financeiro</b></a><br>
+    Neste painel utilizamos os. <b> KPIS:</b><br>
+          <b>Receita:</b> Analise o montante total de receitas geradas por instituições financeiras.<br>
+          <b>Despesas:</b> Analise os gastos totais relacionados a despesas.<br>
+          <b>Impostos:</b> Avalie o valor total de impostos pagos pelas instituições financeira.<br>
+          <b>Lucro:</b> Analise a soma total de lucro, seguimentado por banco<br>
+          
+          <a class="obs"> Observação: Os dados apresentados são fictícios e foram criados exclusivamente para o desenvolvimento do projeto.</a>
+        
+        </p>    
+
+</div>
+<div class="em-breve" id="item4">
+  <b>Em breve +</b> 
+</div><br><br><br><br>
+
+
+<div id="sidebar" class="sidebar">
+    <a href="#item1" onclick="closeSidebar()">Dashboard de Faturamento</a>
+    <a href="#item2" onclick="closeSidebar()">Dashboard de Produção</a>
+    <a href="#item3" onclick="closeSidebar()">Dashboard de Financeiro</a>
+    <a href="#item4" onclick="closeSidebar()">Em breve</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">×</a>
+  </div>
+ <footer>
+
+  <img src="./img/RD LOGO.png" alt="Logo" class="logo-footer">
+ </footer>
+
+</body>
+</html>
